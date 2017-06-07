@@ -1,0 +1,2 @@
+class RetrieveTokenErrorException(Exception):
+    pass
