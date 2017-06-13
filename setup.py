@@ -15,10 +15,11 @@ setup(
     description='scrobbler for myshows.me',
     long_description=read('README.md'),
 
-    license='MIT',
+    license='GPL',
     packages=['myshowsscrobbler'],
     install_requires=[
-        'myshowsapi',
+        'myshows',
+        'requests'
     ],
     classifiers=[
         'License :: OSI Approved :: MIT License',
